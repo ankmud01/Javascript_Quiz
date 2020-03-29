@@ -86,6 +86,7 @@ function beginQuiz(){
 function nextQuestion(){
     if (questionsRemaining.length === 0)
     return window.location.assign("highscores.html");
+    localStorage.setItem("recentScore", scoreValue);
     var questionNumber = Math.floor(Math.random()* questionsRemaining.length);
     currentQuestion = questionsRemaining[questionNumber];
     // console.log(currentQuestion);
