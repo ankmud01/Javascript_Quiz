@@ -1,0 +1,33 @@
+#scorecounter{
+    position: absolute;
+    align-content: left;
+    top: 0;
+    left:0;
+}
+#timecounter{
+    position: absolute;
+    align-content: right;
+    top: 0;
+    right:0;
+}
+.option{
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px solid;
+    border: 1px solid;
+    color: white;
+    background-color: purple;
+    margin-bottom: 2px;
+}
+.optiontext{
+    padding: 3px;
+    align-content: center;
+    width: 100%;
+}
+.option:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(151, 75, 170, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }

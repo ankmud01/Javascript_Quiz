@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="home" class="jumbotron vertical-center col-lg-8">
+                <h4 id="question">All my questions go here...</h4>
+                <div class="option" type ="button">
+                    <p class="optiontext" data-number="1">option1</p>
+                </div>
+                <div class="option">
+                    <p class="optiontext" data-number="2">option2</p>
+                </div>
+                <div class="option">
+                    <p class="optiontext" data-number="3">option3</p>
+                </div>
+                <div class="option">
+                    <p class="optiontext" data-number="4">option4</p>
+                </div>
+                <p></p>
+                <div id="scorecounter">
+                    <p>Score: 0</p>
+                </div>
+                <div>
+                    <p id="timecounter">Time: 0</p>
+                </div>
+                <div>
+                    <p id="result"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
